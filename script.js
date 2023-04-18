@@ -1,14 +1,21 @@
 function highlight() {
     //Write your code here
-  let p = document.getElementsByTagName('strong');
+   let change = document.getElementsByTagName("strong");
+	for(let i = 0; i<change.length;i++){
+		change[i].style.color = "green"
+	}
 	
-	p.style.color = "green"
-
+ 
 }
 
 
 function return_normal() {
     //Write your code here
+	let change = document.getElementsByTagName("strong");
+	for(let i = 0; i<change.length;i++){
+		change[i].style.color = "black"
+	}
+	
 
     
 }
