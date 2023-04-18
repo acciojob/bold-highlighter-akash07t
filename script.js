@@ -1,6 +1,8 @@
 function highlight() {
     //Write your code here
-
+  let p = document.getElementsByTagName('strong');
+	
+	p.style.color = "green"
 
 }
 
